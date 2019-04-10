@@ -23,7 +23,7 @@ class App extends Component {
           Photo="https://images.unsplash.com/photo-1493679756707-21f12da1a0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80.unsplash.com/photo-1534816721242-e07ab9f3b5b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939"
           distance= "20000 miles away"
         />
-        <Travels
+        <Travel
           destination="Warsaw"
           country="Poland"
           Photo="https://images.unsplash.com/photo-1496046906094-ab55b3670ea4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
