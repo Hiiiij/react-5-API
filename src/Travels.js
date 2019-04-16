@@ -5,7 +5,7 @@ const travels = [
         destination:"Berlin,",
         country:"Germany",
         Photo:"https://images.unsplash.com/photo-1545375206-dcef3c51084f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
-        distance: "HERE AND NOW"
+        distance: "here and now"
 
     },        
 {

@@ -27,9 +27,13 @@ body{
 h1{
   color:whitesmoke;
   font-size: 88px;
+  padding: 180px;
+  margin-top: 0px;
+   
 }
 h2{
 font-size: 36px;
 } 
 p{ font-size: 26px;
 }
+
