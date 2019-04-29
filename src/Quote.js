@@ -1,13 +1,14 @@
 import React from "react";
 
-const Quote = ({ quote, character, image }) => (
+const Quote = ({ mySims }) => {
+  return(
   <figure>
-    <img src={image} alt={character} />
+    <img src={mySims.image} alt={mySims.character} />
     <figcaption>
-      <blockquote>{quote}</blockquote>
-      <cite>{character}</cite>
+      <h2>{mySims.quote}</h2>
+      <p>{mySims.character}</p>
     </figcaption>
   </figure>
 );
-
+  }
 export default Quote;

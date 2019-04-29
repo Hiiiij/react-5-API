@@ -1,21 +1,42 @@
 import React, { Component } from "react";
 //import logo from "./logo.svg";
 import "./App.css";
+import Quote from "./Quote.js";
+import Button from "./Button";
 
-import Travels from "./Travels";
-
+const defaultSims = {
+  quote:
+    "Facts are meaningless. You could use facts to prove anything that's even remotely true.",
+  character: "Homer Simpson",
+  image:
+    "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939"
+};
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      mySims: defaultSims
+    };
+  }
+
+  getAPI() {
+    fetch("https:thesimpsonsquoteapi.glitch.me/quotes")
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          mySims: data[0]
+        });
+      });
+  }
+
   render() {
     return (
       <div className="App">
-      <div id="header">
-
-      <h1 className="App-title">Trip me</h1>
-      </div>
-
-        
-
-          <Travels/>
+     
+          <h1 className="App-title">Laugh me</h1>
+          <Button selectChar={() => this.getAPI()} />
+          <Quote mySims={this.state.mySims} />
+       
       </div>
     );
   }
