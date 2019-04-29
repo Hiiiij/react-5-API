@@ -2,7 +2,7 @@
   "name": "my-travels",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hiiiij.github.io/react-5-API/",
+  "homepage": "https://Hiiiij.github.io/react-5-API/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
