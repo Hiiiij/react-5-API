@@ -1,2 +1,2 @@
 Visit my github pages;
-https://thesimpsonsquoteapi.glitch.me/quotes
+https://hiiiij.github.io/react-5-API/
