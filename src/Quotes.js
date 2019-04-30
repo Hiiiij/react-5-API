@@ -2,6 +2,8 @@ import React from "react";
 
 // src/Quotes.js
 
+
+
 const quotes = [
   {
     quote:
